@@ -1,0 +1,194 @@
+.navbar{
+    width: 100%;
+    box-shadow:rgb(190, 190, 190) 2px 2px 10px;
+    z-index: 2;
+}
+
+
+.navbar-brand{
+    margin:0% 0% 0% 10%;
+    
+}  
+
+
+.navbar-collapse{
+    padding-left: 25%;
+    width: 50%;
+}
+
+
+.nav-item{
+    margin-left:1%;
+    font-size: 95%; 
+    /* width: 700%;   */
+}
+
+.nav-link{
+   width: 400%;
+}
+
+.nav_buttons{
+    color:#030303;
+}
+
+.nav_buttons:hover{
+    color:#009DE2;
+}
+.bi:hover{
+    fill:#009DE2;
+}
+
+.main_button{
+    color:#009DE2;
+}
+
+.buy_button{
+    margin-top:-8px;
+}
+
+.btn{
+    border-radius: 30px;
+    color: white;
+    font-weight: bolder;
+}
+
+.btn-p{
+    background-color: #EC3D60;
+    /* color: white; */
+    font-size: 90%;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.btn-p:hover{
+    background-color: #EC3D60;
+    cursor: pointer;
+    color:white;
+   
+}
+
+
+
+@media (min-width:960px) and (max-width:1100px){
+
+    .navbar-collapse{
+        padding-left: 15%;
+        width: 50%;
+    }
+    
+
+
+}
+
+
+/* ***************************************************** */
+
+.banner_img{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.banner_info{
+    position:absolute;
+    top:10%;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.banner_title{
+    font-size: 4vw;
+}
+
+.banner_descp{
+    font-size: 1vw;
+    
+}
+/* ************************************************** */
+
+.information{
+    
+    background-color: white;
+    color: #000;
+}
+
+
+
+
+.desc_title{
+    font-size: 3vw;
+    color: black;
+}
+
+.desc_info{
+    color: black;
+}
+
+
+.info_img1{
+    margin-left: 16%;
+}
+
+.desc_title_1{
+
+    font-size: 3vw;
+    color: black;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.desc_info_1{
+
+    color: black;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.desc_title_2{
+    font-size: 3vw;
+    color: black;
+    margin-top: 30%;
+}
+
+
+
+/* ********************************************* */
+
+.FOOTER{
+    width:100%;
+    background-color: #009EE3;
+    margin-top: 5%;
+}
+
+.row{
+    width: 100%;
+    padding-top: 30px;
+    color:white;
+}
+
+.divide_line{
+    width: 100%;
+    border-top: 0.1px solid silver;
+}
+
+
+.footer-copyright{
+    background-color: #379EE3;
+    border-top: 0.1px solid silver;
+    color:white;
+    height: 70px;
+    margin-top: 30px;
+   
+}
+
+.bi-facebook,.bi-instagram,.bi-youtube,.bi-twitter{
+    margin-left: 2%;
+}
+
+.copyright{
+    margin-right: 40%;
+}
+/* ******************************************************** */
